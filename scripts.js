@@ -1,5 +1,5 @@
 /* Add your JavaScript to this file */
-
+window.onload=function (){
 let button=document.getElementsByClassName('newsletter btn')
 button.onclick=function(){
     let message=document.getElementsByClassName('message')
@@ -15,4 +15,5 @@ button.onclick=function(){
     }
 
 
+}
 }
